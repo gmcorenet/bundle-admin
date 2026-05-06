@@ -1,0 +1,7 @@
+install:
+  - action: copy_tree
+    from: config/packages
+    to: config/packages
+remove:
+  - action: delete
+    path: config/packages/admin.yaml

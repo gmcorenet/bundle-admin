@@ -1,0 +1,30 @@
+admin:
+  dashboard:
+    path: /admin
+    title: GMCore Admin
+    widgets: [stats, recent_activity, quick_actions]
+  menu:
+    items:
+      - label: Dashboard
+        route: admin_dashboard
+        icon: dashboard
+        order: 10
+        role: ROLE_ADMIN
+      - label: Users
+        route: admin_users
+        icon: people
+        order: 20
+        role: ROLE_ADMIN
+      - label: Settings
+        route: admin_settings
+        icon: settings
+        order: 100
+        role: ROLE_ADMIN
+  crud:
+    auto_generate: true
+    namespace: App\Admin
+  theme: gmcore
+  branding:
+    name: GMCore Admin
+    logo: /admin/logo.svg
+    favicon: /admin/favicon.ico

@@ -1,0 +1,29 @@
+name: admin-bundle
+package: gmcore/admin-bundle
+module: github.com/gmcorenet/bundle-admin
+version: 0.1.0
+description: GMCore admin dashboard bundle with auto-generated CRUD and menu builder
+author:
+  name: Ignacio Perez
+  email: ipforner@gmail.com
+license: MIT
+provides:
+  - admin-dashboard
+  - menu-builder
+  - admin-crud
+requires:
+  go: ">=1.26"
+  sdk:
+    - gmcore-bundle
+    - gmcore-crud
+    - gmcore-router
+    - gmcore-security
+    - gmcore-templating
+  bundle:
+    - crud-bundle
+bootstrap:
+  import: "github.com/gmcorenet/bundle-admin"
+recipe:
+  file: recipe.yaml
+install:
+  config: config/packages
