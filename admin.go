@@ -3,8 +3,8 @@ package admin
 import (
 	"context"
 
-	gmcore_bundle "github.com/gmcorenet/sdk/gmcore-bundle"
-	gmcore_crud "github.com/gmcorenet/sdk/gmcore-crud"
+	gmcore_bundle "github.com/gmcorenet/sdk-gmcore-bundle"
+	gmcore_crud "github.com/gmcorenet/sdk-gmcore-crud"
 )
 
 func init() {

@@ -3,8 +3,8 @@ module github.com/gmcorenet/bundle-admin
 go 1.26.2
 
 require (
-	github.com/gmcorenet/sdk/gmcore-bundle v0.0.0
-	github.com/gmcorenet/sdk/gmcore-crud v0.0.0
+	github.com/gmcorenet/sdk-gmcore-bundle v0.0.0
+	github.com/gmcorenet/sdk-gmcore-crud v0.0.0
 )
 
 require (
@@ -17,9 +17,9 @@ require (
 
 replace (
 	github.com/gmcorenet/bundle-crud => ../crud-bundle
-	github.com/gmcorenet/sdk/gmcore-bundle => ../../sdks/gmcore-bundle
-	github.com/gmcorenet/sdk/gmcore-crud => ../../sdks/gmcore-crud
-	github.com/gmcorenet/sdk/gmcore-router => ../../sdks/gmcore-router
-	github.com/gmcorenet/sdk/gmcore-security => ../../sdks/gmcore-security
-	github.com/gmcorenet/sdk/gmcore-templating => ../../sdks/gmcore-templating
+	github.com/gmcorenet/sdk-gmcore-bundle => ../../sdks/gmcore-bundle
+	github.com/gmcorenet/sdk-gmcore-crud => ../../sdks/gmcore-crud
+	github.com/gmcorenet/sdk-gmcore-router => ../../sdks/gmcore-router
+	github.com/gmcorenet/sdk-gmcore-security => ../../sdks/gmcore-security
+	github.com/gmcorenet/sdk-gmcore-templating => ../../sdks/gmcore-templating
 )
